@@ -1,0 +1,65 @@
+{
+  "name": "120s_EDA-Resp-Temp",
+  "arm": {
+    "name": "120s_EDA-Resp-Temp",
+    "mapping": "free",
+    "families": [],
+    "popcount": false,
+    "constant_width": false,
+    "layer_sizes": null
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "acc": 0.7812807881773399,
+      "balanced": 0.7048586563371302,
+      "macro_f1": 0.7051796015213226,
+      "input_bits": 492,
+      "elapsed_sec": 67.5
+    },
+    {
+      "seed": 1,
+      "acc": 0.7881773399014779,
+      "balanced": 0.7437892503434016,
+      "macro_f1": 0.7315880419362397,
+      "input_bits": 492,
+      "elapsed_sec": 60.7
+    },
+    {
+      "seed": 2,
+      "acc": 0.8177339901477833,
+      "balanced": 0.7608438640279034,
+      "macro_f1": 0.7592384415210076,
+      "input_bits": 492,
+      "elapsed_sec": 60.3
+    },
+    {
+      "seed": 3,
+      "acc": 0.767487684729064,
+      "balanced": 0.6877782818162336,
+      "macro_f1": 0.6850436227591553,
+      "input_bits": 492,
+      "elapsed_sec": 62.5
+    },
+    {
+      "seed": 4,
+      "acc": 0.7724137931034483,
+      "balanced": 0.7231644997586001,
+      "macro_f1": 0.7178463483233658,
+      "input_bits": 492,
+      "elapsed_sec": 60.8
+    }
+  ],
+  "input_bits": 492,
+  "layer_sizes": [
+    100,
+    51
+  ],
+  "acc_mean": 0.7854187192118227,
+  "acc_std": 0.017661592780529308,
+  "balanced_mean": 0.7240869104566537,
+  "balanced_std": 0.02618453339122443,
+  "macro_f1_mean": 0.7197792112122182,
+  "macro_f1_std": 0.024979691779062566,
+  "cache": "data/wesad_cache/wesad_features_mr_120s_EDA-Resp-Temp.npz"
+}

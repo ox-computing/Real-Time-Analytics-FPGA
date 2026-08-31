@@ -1,0 +1,29 @@
+{
+  "name": "100_51",
+  "layer_sizes": [
+    100,
+    51
+  ],
+  "num_layers": 2,
+  "total_luts": 151,
+  "k": 3,
+  "n": 4,
+  "tau": 3.5,
+  "num_bits": 4,
+  "epochs": 60,
+  "acc_mean": 0.7477832512315271,
+  "acc_std": 0.0,
+  "balanced_mean": 0.6810863075412993,
+  "balanced_std": 0.0,
+  "macro_f1_mean": 0.6744856534785043,
+  "macro_f1_std": 0.0,
+  "per_seed": [
+    {
+      "seed": 0,
+      "acc": 0.7477832512315271,
+      "balanced": 0.6810863075412993,
+      "macro_f1": 0.6744856534785043,
+      "elapsed_sec": 99.6
+    }
+  ]
+}

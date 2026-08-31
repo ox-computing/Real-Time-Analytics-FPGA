@@ -1,0 +1,64 @@
+{
+  "name": "none",
+  "arm": {
+    "name": "none",
+    "mapping": "free",
+    "families": [],
+    "popcount": false,
+    "constant_width": false,
+    "layer_sizes": null
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "acc": 0.7546798029556651,
+      "balanced": 0.7112699797642786,
+      "macro_f1": 0.6990325363522074,
+      "input_bits": 492,
+      "elapsed_sec": 217.8
+    },
+    {
+      "seed": 1,
+      "acc": 0.787192118226601,
+      "balanced": 0.7402260998632287,
+      "macro_f1": 0.7302160956288821,
+      "input_bits": 492,
+      "elapsed_sec": 220.2
+    },
+    {
+      "seed": 2,
+      "acc": 0.7970443349753694,
+      "balanced": 0.7554627708152385,
+      "macro_f1": 0.7454671000154768,
+      "input_bits": 492,
+      "elapsed_sec": 211.8
+    },
+    {
+      "seed": 3,
+      "acc": 0.8098522167487685,
+      "balanced": 0.7575946197553197,
+      "macro_f1": 0.7541744777073665,
+      "input_bits": 492,
+      "elapsed_sec": 210.9
+    },
+    {
+      "seed": 4,
+      "acc": 0.7517241379310344,
+      "balanced": 0.6889713337274183,
+      "macro_f1": 0.6838335564836235,
+      "input_bits": 492,
+      "elapsed_sec": 208.4
+    }
+  ],
+  "input_bits": 492,
+  "layer_sizes": [
+    100,
+    51
+  ],
+  "acc_mean": 0.7800985221674877,
+  "acc_std": 0.023125652359114728,
+  "balanced_mean": 0.7307049607850967,
+  "balanced_std": 0.026631068777041474,
+  "macro_f1_mean": 0.7225447532375113,
+  "macro_f1_std": 0.02696703188307412
+}

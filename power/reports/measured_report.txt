@@ -1,0 +1,154 @@
+Power Calculator - Report
+Lattice Radiant Software  Version 2026.1.0.37.0 - Power Calculator
+Copyright (C) 1992-2026 Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+Power Model Information
+itpa08_6 format revision: 0.20
+itpa08_6 value revision: 0.36
+ice40tp ptd format revision: 1.01
+ice40tp ptd value revision: 1.07
+
+Power Model Status : Preliminary
+
+Design and Device Details
+Power Project Name : measTR.pcf
+Design Name : Untitled
+Family : iCE40UP
+Device : iCE40UP5K
+Package : SG48
+Operating : Industrial
+Part Number : iCE40UP5K-SG48I
+Process Type : Typical
+
+Power Supplies
+Vcc : 1.2000 V
+Vccio 3.3 : 3.3000 V
+Vccio 2.5 : 2.5000 V
+Vccio 1.8 : 1.8000 V
+Vccio 1.2 : 1.2000 V
+
+Power Summary (Static, Dynamic, Total)
+Power Est. Design Vcc : 0.000362 W, 0.001683 W, 0.002045 W
+Power Est. Design Vccio 3.3 : 0.000048 W, 0.001363 W, 0.001411 W
+Power Est. Design Vccio 2.5 : 0.000000 W, 0.000000 W, 0.000000 W
+Power Est. Design Vccio 1.8 : 0.000000 W, 0.000000 W, 0.000000 W
+Power Est. Design Vccio 1.2 : 0.000000 W, 0.000000 W, 0.000000 W
+Total Power Est. Design  : 0.000410 W, 0.003046 W, 0.003456 W
+
+Icc Summary (Static, Dynamic, Total)
+Icc Est. Design Vcc : 0.000301 A, 0.001403 A, 0.001704 A
+Icc Est. Design Vccio 3.3 : 0.000015 A, 0.000413 A, 0.000428 A
+Icc Est. Design Vccio 2.5 : 0.000000 A, 0.000000 A, 0.000000 A
+Icc Est. Design Vccio 1.8 : 0.000000 A, 0.000000 A, 0.000000 A
+Icc Est. Design Vccio 1.2 : 0.000000 A, 0.000000 A, 0.000000 A
+Total Icc Est. Design  : 0.000316 A, 0.001816 A, 0.002132 A
+
+IO Bank Summary
+IO Bank Used : 2
+
+Peak Startup
+VCC : 0.0152 A 0.0000 m sec
+VCCIO : 0.0051 A 0.0000 m sec
+
+Thermal Summary
+Board Selection : Medium Board
+Heat Sink : No Heat Sink
+Air Flow : 200 LFM
+Ambient Temperature : 25 C
+Effective Theta-JA : 15.7603546 C/W
+Junction Temperature : 25.05 C
+Maximum Safe Ambient : 99.91 C
+
+Utilization Details
+
+Logic
+# Logic LUTs Used : 2413 (45.7%)
+# Registers Used : 1375 (26.0%)
+# Carry Used : 31 (1.2%)
+
+Logic Block Total Dynamic Power (W) : 0.000244
+Logic Block Total Static Power (W) : 0.000256
+Logic Block Total Power (W) : 0.000500
+
+Clocks
+
+Clocks Total Dynamic Power (W) : 0.001381
+Clocks Total Static Power (W) : 0.000029
+Clocks Total Power (W) : 0.001410
+
+Input Output
+# I/P Used : 2 (5.1%)
+# O/P Used : 1 (2.6%)
+
+Bidi
+# Bidi Used : 0 (0.0%)
+
+IOLOGIC
+#IOL Used : 1 (2.6%)
+
+Bank Voltage
+
+I/O Total Dynamic Power (W) : 0.001422
+I/O Total Static Power (W) : 0.000086
+I/O Total Power (W) : 0.001508
+
+PLL
+# PLL Used : 0 (0.0%)
+
+PLL Total Dynamic Power (W) : 0.000000
+PLL Total Static Power (W) : 0.000002
+PLL Total Power (W) : 0.000002
+
+EBR
+# EBR Blocks Used : 0 (0.0%)
+
+Block RAM Total Dynamic Power (W) : 0.000000
+Block RAM Total Static Power (W) : 0.000009
+Block RAM Total Power (W) : 0.000009
+
+DSP
+#DSP Used : 0 (0.0%)
+
+DSP Total Dynamic Power (W) : 0.000000
+DSP Total Static Power (W) : 0.000003
+DSP Total Power (W) : 0.000003
+
+SRAM
+#SRAM Used : 0 (0.0%)
+
+SRAM Total Dynamic Power (W) : 0.000000
+SRAM Total Static Power (W) : 0.000014
+SRAM Total Power (W) : 0.000014
+
+LEDDA IP
+#LEDDA IP Used : 0 (0.0%)
+
+RGBA DRV
+#RGBA DRV Used : 0 (0.0%)
+
+LED Total Dynamic Power (W) : 0.000000
+LED Total Static Power (W) : 0.000001
+LED Total Power (W) : 0.000001
+
+LFOSC
+#LFOSC Used : 0 (0.0%)
+
+HFOSC
+#HFOSC Used : 0 (0.0%)
+
+I2C
+#I2C Used : 0 (0.0%)
+
+SPI
+#SPI Used : 0 (0.0%)
+
+FILTER
+#FILTER Used : 0 (0.0%)
+
+WARMBOOT
+#WARMBOOT Used : 0 (0.0%)
+
+Misc Total Dynamic Power (W) : 0.000000
+Misc Total Static Power (W) : 0.000010
+Misc Total Power (W) : 0.000010

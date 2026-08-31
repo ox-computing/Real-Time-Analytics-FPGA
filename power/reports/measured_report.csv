@@ -1,0 +1,201 @@
+Power Calculator - Report
+Lattice Radiant Software  Version 2026.1.0.37.0 - Power Calculator
+Copyright (C) 1992-2026 Lattice Semiconductor Corporation.
+All Rights Reserved.
+
+=== Power Model Information ===
+itpa08_6 format revision: 0.20
+itpa08_6 value revision: 0.36
+ice40tp ptd format revision: 1.01
+ice40tp ptd value revision: 1.07
+Power Model Status: Preliminary
+
+=== Design and Device Details ===
+Power Project Name: measTR.pcf
+Design Name: Untitled
+Family: iCE40UP
+Device: iCE40UP5K
+Package: SG48
+Speed: High-Performance_1.2V
+Operating: Industrial
+Part Name: iCE40UP5K-SG48I
+Process Type: Typical
+
+=== Thermal Summary ===
+Board Selection : Medium Board
+Heat Sink : No Heat Sink
+Air Flow : 200 LFM
+Ambient Temperature: 25 C
+Effective Theta-JA: 15.7603546 C/W
+Junction Temperature: 25.05 C
+Maximum Safe Ambient: 99.91 C
+
+=== Voltage/Dynamic Power Multiplier (DPM) ===
+Supply,Voltage (V),DPM
+Vcc,1.2000,1.00
+Vccio 3.3,3.3000,1.00
+Vccio 2.5,2.5000,1.00
+Vccio 1.8,1.8000,1.00
+Vccio 1.2,1.2000,1.00
+
+=== Power by Power Supply ===
+Supply,Static (W),Dynamic (W),Total (W)
+Vcc,0.000362,0.001683,0.002045
+Vccio 3.3,0.000048,0.001363,0.001411
+Vccio 2.5,0.000000,0.000000,0.000000
+Vccio 1.8,0.000000,0.000000,0.000000
+Vccio 1.2,0.000000,0.000000,0.000000
+Total Power,0.000410,0.003046,0.003456
+
+=== Current by Power Supply ===
+Supply,Static (A),Dynamic (A),Total (A)
+Vcc,0.000301,0.001403,0.001704
+Vccio 3.3,0.000015,0.000413,0.000428
+Vccio 2.5,0.000000,0.000000,0.000000
+Vccio 1.8,0.000000,0.000000,0.000000
+Vccio 1.2,0.000000,0.000000,0.000000
+Total Icc,0.000316,0.001816,0.002132
+
+=== Power by Block (W) ===
+Logic Block,0.000500
+Clocks,0.001410
+I/O,0.001508
+PLL,0.000002
+Block RAM,0.000009
+DSP,0.000003
+SRAM,0.000014
+LED,0.000001
+Misc,0.000010
+Total,0.003456
+
+=== Peak Startup ===
+Supply,Peak Startup (A),Width of the Peak (m sec)
+VCC,0.0152,0.0000
+VCCIO,0.0051,0.0000
+
+=== Block Current by Power Supply (A) ===
+Supply\Blocks,Logic Block,Clocks,I/O,PLL,Block RAM,DSP,SRAM,LED,Misc,Total
+Vcc,0.000416,0.001175,0.000081,0.000001,0.000007,0.000003,0.000011,0.000001,0.000009,0.001704
+Vccio 3.3,0.000000,0.000000,0.000428,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000428
+Vccio 2.5,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Vccio 1.8,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Vccio 1.2,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Total,0.000416,0.001175,0.000509,0.000001,0.000007,0.000003,0.000011,0.000001,0.000009,0.002132
+
+=== Block Power by Power Supply (W) ===
+Supply\Blocks,Logic Block,Clocks,I/O,PLL,Block RAM,DSP,SRAM,LED,Misc,Total
+Vcc,0.000500,0.001410,0.000097,0.000002,0.000009,0.000003,0.000014,0.000001,0.000010,0.002045
+Vccio 3.3,0.000000,0.000000,0.001411,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.001411
+Vccio 2.5,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Vccio 1.8,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Vccio 1.2,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Total,0.000500,0.001410,0.001508,0.000002,0.000009,0.000003,0.000014,0.000001,0.000010,0.003456
+
+=== Logic Block Calculation ===
+[Logic]
+Clock Name,Freq. (MHz),AF (%),# Logic LUTs,# Registers,# Carry,#GLB2LOCAL,#X0,#X1,#X4,#PX4,#TX4,#X12,#TX12,#X12X4,#ISB,#PISB,#INBYPASS,#OEBYPASS,#OUTBYPASS,#CASCADE,#CLK,#LSR,#CE,#LCMUX,#PLCCARRY,#LUTRIPPLE,Dyn. Pwr (W)
+clk_c,12,0.381,1453,1375,31,0,4864,379,5274,2,1677,199,271,225,5542,1,0,0,1,0,445,132,228,367,6,57,0.000209
+COMBINATORIAL,12,0.381,960,0,0,0,757,156,447,0,302,13,37,25,874,0,0,0,0,0,0,10,3,388,0,432,0.000035
+
+[Total Logic Block]
+Total Dynamic Power (W),Total Power (W)
+0.000244,0.000500
+
+=== Clocks Calculation ===
+[Clocks]
+Clock Name,Freq. (MHz),AF (%),CLKEN Duty Cycle (%),# Pfeedpad,#Pfeedfab,#Pfeedosc,# Ptrunk,#Pspine,# Ptap,Dyn. Pwr (W)
+clk_c,12,100,100,1,0,0,1,4,108,0.001381
+
+[Total Clocks]
+Total Dynamic Power (W),Total Power (W)
+0.001381,0.001410
+
+=== I/O Calculation ===
+[Input Output]
+Clock Name,Input Type,Output Type,Freq. (MHz),AF (%),# I/P,# O/P,Cload (pF),Bank,Pullmode,#GLB2LOCAL,#X0,#X1,#X4,#PX4,#TX4,#X12,#TX12,#X12X4,#ISB,#PISB,#INBYPASS,#OEBYPASS,#OUTBYPASS,#CASCADE,#CLK,#LSR,#CE,#LCMUX,#CARRY,#LUTRIPPLE,Dyn. Pwr (W)
+clk_c,LVCMOS33,LVCMOS33-8,24,100,1,0,5,0,Pullup_100k,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001412
+COMBINATORIAL,LVCMOS33,LVCMOS33-8,12,0.46,1,0,5,0,Pullup_100k,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.000003
+clk_c,LVCMOS33,LVCMOS33-8,12,0.02,0,1,5,2,na,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.000000
+
+[Bidi]
+Clock Name,Bi Type,Bi Freq. (MHz),Input AF (%),# Bidi,Duty Cycle (%),Cload (pF),Bank,Pullmode,#GLB2LOCAL,#X0,#X1,#X4,#PX4,#TX4,#X12,#TX12,#X12X4,#ISB,#PISB,#INBYPASS,#OEBYPASS,#OUTBYPASS,#CASCADE,#CLK,#LSR,#CE,#LCMUX,#CARRY,#LUTRIPPLE,Dyn. Pwr (W)
+
+[IOLOGIC]
+Input Clock Name,Input Freq. (MHz),Input AF (%),Output Clock Name,Output Freq. (MHz),Output AF (%),#IOL,Type,Dyn. Pwr (W)
+clk_c,12,100,COMBINATORIAL,12,0.02,1,IOL_B,0.000006
+
+[Bank Voltage]
+Bank,Voltage (V),Clock Name,Freq. (MHz),AF (%),#IP,#OP,#Bidi,#Conditional,Blank,Baseline,DiffIn,DiffOut
+0,Vccio 3.3,_CLKNAME,0,10,2,0,0,0,Bank0_Blank,Bank0_Baseline,Bank0_DiffIn,Bank0_DiffOut
+1,Vccio 3.3,_CLKNAME,0,10,0,0,0,1,Bank1_Blank,Bank0_Baseline,Bank0_DiffIn,Bank0_DiffOut
+2,Vccio 3.3,_CLKNAME,0,10,0,1,0,0,Bank0_Blank,Bank2_Baseline,Bank0_DiffIn,Bank0_DiffOut
+
+[Total I/O]
+Total Dynamic Power (W),Total Power (W)
+0.001422,0.001508
+
+=== PLL Calculation ===
+[PLL]
+Output Clock A Name,Out Freq. A (MHz),Out AF A (%),Output Clock B Name,Out Freq. B (MHz),Out AF B (%),# PLL,Type,Allow Standby,Dyn. Pwr (W)
+
+[Total PLL]
+Total Dynamic Power (W),Total Power (W)
+0.000000,0.000002
+
+=== Block RAM Calculation ===
+[EBR]
+Rd Clock Name,Rd CLK Freq. (MHz),Rd CLK AF (%),# EBR Blocks,Wr Clock Name,Wr CLK Freq. (MHz),Wr CLK AF (%),RdType,WrType,Duty Cycle (%),#GLB2LOCAL,#X0,#X1,#X4,#PX4,#TX4,#X12,#TX12,#X12X4,#ISB,#PISB,#INBYPASS,#OEBYPASS,#OUTBYPASS,#CASCADE,#CLK,#LSR,#CE,#LCMUX,#CARRY,#LUTRIPPLE,Dyn. Pwr (W)
+
+[Total Block RAM]
+Total Dynamic Power (W),Total Power (W)
+0.000000,0.000009
+
+=== DSP Calculation ===
+[DSP]
+Clock Name,Freq. (MHz),AF (%),#DSP,Type,Dyn. Pwr (W)
+
+[Total DSP]
+Total Dynamic Power (W),Total Power (W)
+0.000000,0.000003
+
+=== SRAM Calculation ===
+[SRAM]
+Clock Name,Freq. (MHz),AF (%),#SRAM,Type,Allow Standby,Dyn. Pwr (W)
+
+[Total SRAM]
+Total Dynamic Power (W),Total Power (W)
+0.000000,0.000014
+
+=== LED Calculation ===
+[LEDDA IP]
+Clock Name,Freq. (MHz),AF (%),#LEDDA IP,Type,Dyn. Pwr (W)
+
+[RGBA DRV]
+Clock Name,Freq. (MHz),AF (%),#RGBA DRV,Type,Bank,Dyn. Pwr (W)
+
+[Total LED]
+Total Dynamic Power (W),Total Power (W)
+0.000000,0.000001
+
+=== Misc Calculation ===
+[LFOSC]
+Clock Name,Freq. (MHz),AF (%),#LFOSC,Type,Dyn. Pwr (W)
+
+[HFOSC]
+Clock Name,Freq. (MHz),AF (%),#HFOSC,Type,Dyn. Pwr (W)
+
+[I2C]
+Clock Name,Freq. (MHz),AF (%),#I2C,Type,Dyn. Pwr (W)
+
+[SPI]
+Clock Name,Freq. (MHz),AF (%),#SPI,Type,Dyn. Pwr (W)
+
+[FILTER]
+Clock Name,Freq. (MHz),AF (%),#FILTER,Type,Dyn. Pwr (W)
+
+[WARMBOOT]
+Clock Name,Freq. (MHz),AF (%),#WARMBOOT,Type,Dyn. Pwr (W)
+
+[Total Misc]
+Total Dynamic Power (W),Total Power (W)
+0.000000,0.000010
